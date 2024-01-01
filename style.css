@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ body{        
+    background-image: radial-gradient(rgba(0,0,0,0.2),rgba(0,0,0.8)), url(images/mainimage.jpg);
+}
+.navbar{
+    padding-left: 60px;
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar img{
+    width: 14%;
+}
+
+.signinandlanguage{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.btn-signin{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    padding-top:  6px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid red;
+    border-radius: 4px;
+    background: red;
+    animation-name: example;
+    animation-duration: 4s;
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+
+}
+    @keyframes example {
+     from {background-color: red;}
+    to {background-color: yellow;}
+    }
+#enghindi{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size:15px ;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+#enghindi option{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    background-color: black;
+    font-size: 15px;
+    padding: 5px;
+    
+
+
+}
+.main-container{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-heading{
+    font-size: 60px;
+    margin-bottom: 30px;
+    line-height: 2cm;
+}
+.second-heading{
+    font-size: 30px;
+    margin-bottom: 26px;
+}
+.third-heading{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.email-container{
+    width: 90;
+    height: fit-content;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 250px;
+}
+.email-container input{
+    margin-left: 20px;
+}
+ 
+
+.btn-getstarted{
+ cursor: pointer;
+ padding: 18px 30px;
+ background-color: #e50914;
+ color: white;
+ font-size: 0.8cm;
+ text-align: center;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.section-1{
+display: flex;
+flex-direction: column;
+width: 100%;
+align-items: center;
+text-align: center;
+
+}
+.input-Email{
+outline: none ;
+border: none;
+padding-left: 0cm;
+padding-right: 5cm;
+padding-top: 0cm;
+padding-bottom: 0cm;
+font-size: 0.5cm;
+color: black;
+}
+/*section2*/
+.topborder{
+width: 100%;
+height: 7px;
+background-color: rgb(61, 55, 55);
+}
+.subline-container{
+height: 500px;
+font-weight: 100px;
+background-color: black;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+/* section3 */
+.faq_section{
+display: flex;
+flex-direction: column;
+width: 100%;
+align-items: center;
+margin-bottom: 100px;
+background-color: black;
+color: white;
+padding-top: 50px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.faq-heading{
+font-size: 50px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding: 50px;
+}
+.greybox{
+display: flex;
+width: 60%;
+flex-direction: column;
+background-color: rgb(71, 68, 68);
+margin: 5px;
+}
+.greyboxin{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 8px 35px;
+}
+.greyboxin h1{
+font-size: 28px;
+font-weight: 500 ;
+line-height: 60px;
+}
+.plus_btn{
+color: white;
+font-size: 40px;
+background: none;
+border: none;
+}
+.greyboxout{
+display: none;
+flex-direction: column;
+}
+.greyboxout hr{
+width: 100%;
+margin: 0;
+background-color:black ;
+border: 1px solid black;
+}
+.greyboxout p{
+font-size: 25px;
+margin: 25px 6px;
+padding: 20px;
+}
+.blackcontainer-text{
+color: white;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 35%;
+}
+.blackcontainer-text h1{
+font-size: 50px;
+text-align: left;
+width: 100%;
+margin-bottom: 10px;
+}
+.blackcontainer-text p{
+font-size: 25px;
+width: 100%;
+
+}
+.liveTV-animation{
+width:500px;
+}
+.liveTV-animation img{
+ z-index: 3;
+position: absolute;
+width: 600px;
+
+}
+.liveTV-animation video{
+padding: 80px;
+z-index: 2;
+position: absolute;
+width: 450px;
+}
+
+
+
+/*Sign in page Css*/
+
+.header{
+    padding: 30px 50px;
+    position: relative;
+    width: 100%;
+
+}
+.logo img{
+    width: 14%;    
+}
+.signinbox{
+    position: relative;
+    height: 650px;
+    width: 450px;
+    padding: 60px 65px 60px 65px;
+    margin-left: 35%;
+    background: rgba(0, 0, 0, 0.90);
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+.signinbox h2{
+    font-size: 30px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.sign-in-form input{
+height: 50px;
+width: 100%;
+color: white;
+background-color: #333;
+box-sizing: border-box;
+padding-left: 15px;
+outline: none;
+border-radius: 3px;
+
+}
+.sign-in-form{
+margin-bottom: 15px;
+}
+.sign-in-btn{
+
+height: 50px;
+color: white;
+width: 100%;
+background-color: red;
+border-radius: 3px;
+font-size: 16px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 40px;
+margin-bottom: 15px;
+text-align: center;
+}
+.support{
+display: flex;
+color: #b3b3b3;
+justify-content: space-between;
+font-size: 12px;
+margin-bottom: 50px;
+}
+.remember{
+display: flex;
+align-items: center;
+
+}
+.need-help{
+margin-right: 10px;
+
+}
+.remember input{
+margin-right: 5px;
+}
+.need-help a{
+text-decoration: none;
+color: #b3b3b3;
+}
+.need-help a:hover{
+text-decoration: underline;
+}
+.login-section{
+color: #b3b3b3;
+}
+.login-facebook{
+display: flex;
+align-items: center;
+width: 100%;
+color: #737373;
+margin-bottom: 30px;
+}
+.login-facebook img{
+width: 20px;
+height: 20px;
+
+}
+.login-facebook a{
+text-decoration: none;
+color: #737373;
+margin-left: 5px;
+font-size: 13px;
+}
+a{
+text-decoration: none;
+}
+.signup{
+margin-bottom: 10px;
+
+}
+.signup a{
+color: white;
+}
+.signup a:hover{
+text-decoration: underline;
+}
+.term{
+font-size: 13px;
+}
+.term a{
+color: blue;
+}
+.term a:hover{
+text-decoration: underline;
+}
